@@ -78,6 +78,6 @@
 function quadrado (){}
 let quadrado = document.getElementById("quadrado")
 alert ("saiu")
-quadrado.style.backgroundColor = "blue"
+quadrado.style.backgroundColor = prompt (" qual é a cor em ingles")
 
 
