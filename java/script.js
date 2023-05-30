@@ -62,19 +62,22 @@
 // window.document.getElementsByTagName("p")[0]
 
 
-function alerta (){ 
-alert ("bucetao")
-const user = document.getElementsByTagName("input")[0]
-const senha = document.getElementsByTagName ("input")[1].value
-alert("eu sou" + user + senha)
+// function alerta (){ 
+// alert ("bucetao")
+// const user = document.getElementsByTagName("input")[0]
+// const senha = document.getElementsByTagName ("input")[1].value
+// alert("eu sou" + user + senha)
 
-if (user == "soph" && senha == "123"){
-    alert (" boa")
-}else{
-    alert ("não")
-}
-}
+// if (user == "soph" && senha == "123"){
+//     alert (" boa")
+// }else{
+//     alert ("não")
+// }
+// }
 
-
+function quadrado (){}
+let quadrado = document.getElementById("quadrado")
+alert ("saiu")
+quadrado.style.backgroundColor = "blue"
 
 
