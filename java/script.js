@@ -57,11 +57,9 @@
 // alert (" voce pode votar")
 // };
 
-var coisa = window.document.write ("<h1> Olá <h1>")
+// var coisa = window.document.write ("<h1> Olá <h1>")
 
-// window.document.getElementsByTagName("p")[24]
-
-
+// window.document.getElementsByTagName("p")[
 
 
 
