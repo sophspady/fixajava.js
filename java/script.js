@@ -62,7 +62,9 @@
 // window.document.getElementsByTagName("p")[
 
 
-
+function alerta (){ 
+alert ("bucetao")
+}
 
 
 
