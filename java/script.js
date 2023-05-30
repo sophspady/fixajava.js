@@ -59,13 +59,16 @@
 
 // var coisa = window.document.write ("<h1> Olá <h1>")
 
-// window.document.getElementsByTagName("p")[
+// window.document.getElementsByTagName("p")[0]
 
 
 function alerta (){ 
 alert ("bucetao")
-}
+const user = document.getElementsByTagName("input")[0]
+const senha = document.getElementsByTagName ("input")[1].value
+alert("eu sou" + user + senha)
 
+}
 
 
 
