@@ -75,13 +75,47 @@
 // }
 // }
 
-function quadrado (){}
-let quadrado = document.getElementById("quadrado")
-alert ("saiu")
-quadrado.style.backgroundColor = prompt (" qual é a cor em ingles?")
+// function quadrado (){}
+// let quadrado = document.getElementById("quadrado")
+// alert ("saiu")
+// quadrado.style.backgroundColor = prompt (" qual é a cor em ingles?")
 
-quadrado.style.width = prompt ("qual a laegura")+px
-quadrado.style.height = prompt ("qual a altura")+px
-quadrado.innerText = "testado com sucesso"
+// quadrado.style.width = prompt ("qual a laegura")+px
+// quadrado.style.height = prompt ("qual a altura")+px
+// quadrado.innerText = "testado com sucesso"
 
-alert ("quadrado configurado com sucesso")
+// alert ("quadrado configurado com sucesso")
+
+
+var luz = 1 || 2 || 3 == prompt ("qual o seu caso?")
+var consumomensal = 180 = prompt (" qual o seu consumo mensal?")
+switch (luz) {
+    case 1:
+        res = consumomensal * 2, 50
+        alert ("empresarial")
+        break
+    case 2:
+        res2 = consumomensal * 1.35
+        alert ("residencial")
+        break
+    case 3:
+        res3 = consumomensal * 0.88
+        alert("baixa renda")
+        break
+    default:
+        alert("valor inválido")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
