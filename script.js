@@ -107,28 +107,46 @@
 // }
 
 
-var litros = prompt("quantos litros?")
-var combustivel = prompt(" digite 1- alcool,2-gasolina,3-diesel")
-switch (combustivel) {
+// var litros = prompt("quantos litros?")
+// var combustivel = prompt(" digite 1- alcool,2-gasolina,3-diesel")
+// switch (combustivel) {
 
+//     case "1":
+//         res = litros * 3.49
+//         alert(res)
+//         break
+//     case "2":
+//         res = litros * 5.03
+//         alert(res)
+//         break
+//     case "3":
+//         res = litros * 5.29
+//         alert(res)
+//         break
+//     default:
+//         alert("valor inválido!")
+//     }
+
+var n1 = Number(prompt("escolha um numero"))
+var n2 = Number(prompt("escolha mais um numero"))
+var operaçao = prompt("escolha a operação: 1-adição, 2-subtração, 3-multiplicação e 4-divisão")
+switch (operaçao) {
     case "1":
-        res = litros * 3.49
+        res = n1 + n2
         alert(res)
         break
     case "2":
-        res = litros * 5.03
+        res = n1 - n2
         alert(res)
-        break
     case "3":
-        res = litros * 5.29
+        res = n1 * n2
         alert(res)
-        break
+    case "4":
+        res = n1 / n2
+        alert(res)
     default:
         alert("valor inválido!")
 }
-
-
-
 
 
 
