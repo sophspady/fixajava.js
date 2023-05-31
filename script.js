@@ -107,7 +107,7 @@
 // }
 
 
-var litros = prompt("quanos litros?")
+var litros = prompt("quantos litros?")
 var combustivel = prompt(" digite 1- alcool,2-gasolina,3-diesel")
 switch (combustivel) {
 
