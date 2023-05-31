@@ -87,31 +87,45 @@
 // alert ("quadrado configurado com sucesso")
 
 
-var luz = prompt("qual o seu caso?")
-var consumomensal = 180 = prompt(" qual o seu consumo mensal?")
-switch (luz) {
+// var luz = prompt("qual o seu caso?")
+// var consumomensal = 750
+// switch (luz) {
+//     case "1":
+//         res = consumomensal * 2.50
+//         alert(res)
+//         break
+//     case "2":
+//         res = consumomensal * 1.35
+//         alert(res)
+//         break
+//     case "3":
+//         res = consumomensal * 0.88
+//         alert(res)
+//         break
+//     default:
+//         alert("valor inválido")
+// }
+
+
+var litros = prompt("quanos litros?")
+var combustivel = prompt(" digite 1- alcool,2-gasolina,3-diesel")
+switch (combustivel) {
+
     case "1":
-        res = consumomensal * 2, 50
-        alert("empresarial")
+        res = litros * 3.49
+        alert(res)
         break
     case "2":
-        res2 = consumomensal * 1.35
-        alert("residencial")
+        res = litros * 5.03
+        alert(res)
         break
     case "3":
-        res3 = consumomensal * 0.88
-        alert("baixa renda")
+        res = litros * 5.29
+        alert(res)
         break
     default:
-        alert("valor inválido")
+        alert("valor inválido!")
 }
-
-
-
-
-
-
-
 
 
 
