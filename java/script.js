@@ -80,4 +80,8 @@ let quadrado = document.getElementById("quadrado")
 alert ("saiu")
 quadrado.style.backgroundColor = prompt (" qual é a cor em ingles?")
 
+quadrado.style.width = prompt ("qual a laegura")+px
+quadrado.style.height = prompt ("qual a altura")+px
+quadrado.innerText = "testado com sucesso"
 
+alert ("quadrado configurado com sucesso")
