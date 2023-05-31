@@ -87,18 +87,18 @@
 // alert ("quadrado configurado com sucesso")
 
 
-var luz = 1 || 2 || 3 == prompt ("qual o seu caso?")
-var consumomensal = 180 = prompt (" qual o seu consumo mensal?")
+var luz = prompt("qual o seu caso?")
+var consumomensal = 180 = prompt(" qual o seu consumo mensal?")
 switch (luz) {
-    case 1:
+    case "1":
         res = consumomensal * 2, 50
-        alert ("empresarial")
+        alert("empresarial")
         break
-    case 2:
+    case "2":
         res2 = consumomensal * 1.35
-        alert ("residencial")
+        alert("residencial")
         break
-    case 3:
+    case "3":
         res3 = consumomensal * 0.88
         alert("baixa renda")
         break
