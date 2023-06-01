@@ -128,37 +128,13 @@
 //     }
 
 // 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function alerta() {
+    var senha
+    var usuario
+    if (usuario == sophia.com) {
+        alert("Bem-vindo ao sistema!")
+    }
+    else {
+        alert(" usuário e/ou senha inválidos")
+    }
+}
