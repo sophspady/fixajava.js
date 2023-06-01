@@ -128,13 +128,24 @@
 //     }
 
 // 
-function alerta() {
-    var senha
-    var usuario
-    if (usuario == sophia.com) {
-        alert("Bem-vindo ao sistema!")
+
+// function alerta() {
+//     const senha = document.getElementsByTagName("input")[1].value
+//     const usuario = document.getElementsByTagName("input")[0].value
+//     if (usuario == "soph" && senha == "123") {
+//         alert("Bem-vindo ao sistema!")
+
+// } else {
+//     alert(" usuário e/ou senha inválidos")
+// }
+// }
+
+function cubo() {
+    var n = document.getElementsByTagName("input")[0].value
+    var res = n * n * n
+    if (n * n * n == res) {
+
     }
     else {
-        alert(" usuário e/ou senha inválidos")
     }
 }
