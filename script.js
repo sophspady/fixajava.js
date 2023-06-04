@@ -159,3 +159,13 @@
 // else if (idade >=21 && idade <=25){
 //     alert ("Profissional")
 // }
+
+var vi = prompt("digite o valor de sua compra")
+var vf 
+var vd
+var funcionario = prompt ("você é funcionário ou cliente vip?")
+var clientevip
+switch (vi){
+case "1":
+    res= vi * "5%" == vf - vi == vd
+}
