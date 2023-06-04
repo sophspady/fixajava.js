@@ -140,12 +140,22 @@
 // }
 // }
 
-function cubo() {
-    var n = document.getElementsByTagName("input")[0].value
-    var res = n * n * n
-    if (n * n * n == res) {
+// function cubo() {
+//     var n = document.getElementsByTagName("input")[0].value
+//     var res = n * n * n
+//     document.write(res);
+// }
 
-    }
-    else {
-    }
-}
+//  var idade=prompt ("qual a sua idade?")
+//  if (idade >=5 && idade <=10){
+//     alert (" Infantil")
+// }
+// else if ( idade >=11 && idade <= 15){
+// alert (" Juvenil")
+// }
+// if (idade >=16 && idade <= 20){
+// alert ("Junior")
+// }
+// else if (idade >=21 && idade <=25){
+//     alert ("Profissional")
+// }
