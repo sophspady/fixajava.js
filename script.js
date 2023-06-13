@@ -160,12 +160,14 @@
 //     alert ("Profissional")
 // }
 
-var vi = prompt("digite o valor de sua compra")
-var vf 
-var vd
-var funcionario = prompt ("você é funcionário ou cliente vip?")
-var clientevip
-switch (vi){
-case "1":
-    res= vi * "5%" == vf - vi == vd
+function escrever(){
+let pai = document.body
+let filho = document.createelement ('h1')
+let imagem = document.createElement ('img')
+ imagem 
+ src = 
+filho.textContent = "meu titulo"
+paiappendchild(filho)
+paiappendchild(imagem)
 }
+  
