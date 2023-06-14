@@ -3,6 +3,11 @@
     height: 100px;
  }  */
 
+#espaco {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
     
   
 
