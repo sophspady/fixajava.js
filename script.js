@@ -169,19 +169,38 @@
 // paiappendChild(filho)
 // paiappendChild(imagem)
 // }
-  
+
 // function carregar(){
 // var imagem = document.createElement ('img')
 // imagem.src= 
 // var quadrado = document.getElementsById ("quadrado")
 // quadradoappenChild (imagem)
 // }
+// n = document.getElementsByTagName("input")[0].value
+// var n = document.getElementsById ("numero")
+// var num = 0
+// function numero(mn) {
+//     if (mn == "sucessor") {
+//       res=num = num + 1
+//       n.innerText=0
+//     } else if (mn == "antecessor") {
+//        res= num = num - 1
+//        n.innerText=0
+//     }
+// }
 
-function numero(){ 
-    var n = document.getElementsByTagName("input")[0].value
-    var res
-    if (res = n < ){
+function foto() {
+ var clima = document.getElementById ("palavra")
+ var separar = document.getElementById ("espaco")
+var imagem = document.createElement ("img")
 
-    }
-  else ( )
+switch (clima){
+  case "sol":
+   imagem.src= "sol.jpg" 
+break
+
+case "chuva":
+  
+}
+
 }
