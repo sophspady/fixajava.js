@@ -160,14 +160,28 @@
 //     alert ("Profissional")
 // }
 
-function escrever(){
-let pai = document.body
-let filho = document.createelement ('h1')
-let imagem = document.createElement ('img')
- imagem 
- src = 
-filho.textContent = "meu titulo"
-paiappendchild(filho)
-paiappendchild(imagem)
-}
+// function escrever(){
+// let pai = document.body
+// let filho = document.createElement ('h1')
+// let imagem = document.createElement ('img')
+//  imagem  src = 
+// filho.textContent = "meu titulo"
+// paiappendChild(filho)
+// paiappendChild(imagem)
+// }
   
+// function carregar(){
+// var imagem = document.createElement ('img')
+// imagem.src= 
+// var quadrado = document.getElementsById ("quadrado")
+// quadradoappenChild (imagem)
+// }
+
+function numero(){ 
+    var n = document.getElementsByTagName("input")[0].value
+    var res
+    if (res = n < ){
+
+    }
+  else ( )
+}
