@@ -190,17 +190,25 @@
 // }
 
 function foto() {
- var clima = document.getElementById ("palavra")
- var separar = document.getElementById ("espaco")
-var imagem = document.createElement ("img")
+  var clima = document.getElementById("palavra").value
+  var separar = document.getElementById("espaco")
+  var imagem = document.createElement("img")
 
-switch (clima){
-  case "sol":
-   imagem.src= "sol.jpg" 
-break
+  switch (clima) {
+    case "sol":
+      imagem.src = 'sol.jpg'
+      imagem.style.height = '250px'
+      imagem.style.width = '250px'
+      break
 
-case "chuva":
-  
-}
+      case "chuva":
+        imagem.src = 'chuva.jpg'
+        imagem.style.height = '250px'
+        imagem.style.width = '250px'
+        break
+  }
+  separar.innerHTML = ""
+  separar.appendChild(imagem)
+
 
 }
