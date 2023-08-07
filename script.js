@@ -209,6 +209,6 @@ function foto() {
   }
   separar.innerHTML = ""
   separar.appendChild(imagem)
-
+https://www.hostinger.com.br/tutoriais/portfolio-desenvolvedor-web
 
 }
