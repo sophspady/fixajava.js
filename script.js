@@ -210,5 +210,5 @@ function foto() {
   separar.innerHTML = ""
   separar.appendChild(imagem)
 https://www.hostinger.com.br/tutoriais/portfolio-desenvolvedor-web
-
+https://www.freecodecamp.org/portuguese/news/15-portfolios-de-desenvolvimento-para-a-web-inspiradores/
 }
